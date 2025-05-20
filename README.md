@@ -1,84 +1,83 @@
-# Hospital-Quality-Comparison-JHH-vs-US-Benchmark
-Comparative analysis of hospital performance and quality metrics between Johns Hopkins Hospital and top-ranked U.S. hospitals. This project evaluates patient satisfaction, readmission, mortality rates, and other key indicators using structured health services data.
-
 # Comparative Analysis of Hospital Quality Metrics  
-### Johns Hopkins Hospital vs. Top U.S. Hospitals
-
----
+## Johns Hopkins Hospital vs. Top U.S. Hospitals
 
 ## Overview
 
-This project presents a comparative analysis of hospital performance metrics between Johns Hopkins Hospital (JHH) and leading U.S. hospitals ranked by patient experience and clinical outcomes. The objective is to evaluate healthcare quality indicators, identify performance patterns, and highlight strengths or potential areas of improvement in care delivery.
+This project presents a comparative analysis of hospital performance and quality metrics between Johns Hopkins Hospital (JHH) and top-ranked U.S. hospitals. The evaluation focuses on patient satisfaction, readmission rates, mortality outcomes, and staff responsiveness—using structured health services data from publicly available sources.
 
----
+The aim is to assess key quality indicators, highlight performance strengths and gaps, and provide actionable insights to inform hospital benchmarking and quality improvement efforts.
 
 ## Objectives
 
-- Analyze publicly available hospital data
-- Compare key performance metrics across hospitals
-- Visualize differences in patient satisfaction, readmission, and mortality rates
-- Generate insights to support hospital quality improvement and benchmarking
+- Analyze publicly available hospital performance data  
+- Compare key metrics across JHH and top U.S. hospitals  
+- Visualize differences in satisfaction, readmission, and mortality  
+- Identify opportunities for quality improvement and operational excellence
 
----
+## Repository Contents
 
-## Contents
+This repository includes Jupyter Notebooks that analyze and visualize the following indicators:
 
-This repository includes Jupyter Notebooks analyzing:
+- Patient Communication Satisfaction (Doctor, Nurse)  
+- Discharge Information & Responsiveness  
+- Overall Hospital Rating  
+- Readmission Rates (Heart Failure, Pneumonia)  
+- Mortality Rates (Heart Failure, Pneumonia, AMI)  
+- Staff Responsiveness & Satisfaction  
 
-- Patient Communication Satisfaction (Doctor, Nurse)
-- Discharge Information & Responsiveness
-- Overall Hospital Rating
-- Readmission Rates ( Heart Failure, Pneumonia)
-- Mortality Rates (Heart Failure, Pneumonia, AMI)
-- Staff Responsiveness & Satisfaction
+Each notebook provides statistical comparisons and visual interpretations between Johns Hopkins Hospital and its national peers.
 
-Each notebook provides visualizations and statistical comparisons between JHH and its peer institutions.
+## Key Quality Measures & Measure IDs
 
----
+| Indicator                    | Measure Name                                     | Measure ID                |
+|------------------------------|--------------------------------------------------|---------------------------|
+| Nurse Communication          | HCAHPS Nurse Communication Score                 | H_COMP_1_LINEAR_SCORE     |
+| Doctor Communication         | HCAHPS Doctor Communication Score                | H_COMP_2_LINEAR_SCORE     |
+| Staff Responsiveness         | HCAHPS Staff Responsiveness                      | H_COMP_3_LINEAR_SCORE     |
+| Discharge Information        | HCAHPS Discharge Communication                   | H_COMP_6_LINEAR_SCORE     |
+| Overall Hospital Rating      | HCAHPS Overall Rating                            | H_HSP_RATING_LINEAR_SCORE |
+| Heart Failure Mortality Rate | 30-day Mortality Rate for HF Patients            | MORT_30_HF                |
+| Readmission Rate             | Hospital-wide 30-Day Readmission Rate            | READM-30-HOSP-WIDE        |
+| ED Abandonment Rate          | Patients Who Left ED Before Being Seen           | OP-22                     |
+
+## Key Insights
+
+- JHH outperforms national benchmarks in nurse and doctor communication.
+- Readmission rates for heart failure patients at JHH are slightly above peers, highlighting a potential target for care coordination improvements.
+- Staff responsiveness and discharge communication indicators show room for process refinement and patient experience enhancement.
+
+## Tools & Technologies Used
+
+- Python  
+- Jupyter Notebook  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Statistical Process Control (SPC) charts
 
 ## Data Sources
 
-- Hospital Compare Data** (CMS.gov)  
-- U.S. News & World Report Rankings
-- Publicly reported HCAHPS and outcome datasets
-
----
-
-## Tools & Technologies
-
-- `Python`  
-- `Jupyter Notebook`  
-- `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`
-
----
-
-## Key Insights 
-
-- Johns Hopkins performs above national benchmarks in nurse communication but shows slightly higher readmission rates for heart failure compared to competitors.
-- Staff responsiveness scores indicate opportunities for workflow enhancement in patient discharge processes.
-
-
----
+- CMS Hospital Compare Data: https://data.cms.gov/provider-data  
+- U.S. News & World Report Hospital Rankings: https://health.usnews.com/best-hospitals  
+- Publicly reported HCAHPS, outcome, and process of care datasets
 
 ## Related Skills Demonstrated
 
-- Healthcare benchmarking and KPI analysis  
-- Health data visualization and statistical comparison  
-- Performance metrics interpretation  
-- Health services research methodology  
-
----
+- Healthcare quality benchmarking  
+- KPI visualization and interpretation  
+- Comparative health systems analytics  
+- Statistical process control (SPC) in healthcare  
+- Use of structured health services data for performance assessment  
 
 ## Author
 
-**Alanoud Alturki**  
-Health Data Analyst | Pharmcist, MS (Health Informatics & Data Analysis) | PhD Student  
+Alanoud Alturki  
+Health Data Analyst | Pharmacist  
+MS in Health Informatics · MS in Health Data Analysis · PhD Student  
 Riyadh, Saudi Arabia  
-[LinkedIn](https://www.linkedin.com/in/alanoud-alturki-5601b2b5)
-
----
+LinkedIn: https://www.linkedin.com/in/alanoud-alturki-5601b2b5
 
 ## License
 
-This project is for educational and research purposes only. Data used is publicly available. Please cite appropriately if using this work.
+This project is for educational and research purposes only.  
+All data used is publicly available and should be cited appropriately if reused.
 
