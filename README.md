@@ -8,7 +8,7 @@ Comparative analysis of hospital performance and quality metrics between Johns H
 
 ## Overview
 
-This project presents a comparative analysis of hospital performance metrics between **Johns Hopkins Hospital (JHH)** and leading U.S. hospitals ranked by patient experience and clinical outcomes. The objective is to evaluate healthcare quality indicators, identify performance patterns, and highlight strengths or potential areas of improvement in care delivery.
+This project presents a comparative analysis of hospital performance metrics between Johns Hopkins Hospital (JHH) and leading U.S. hospitals ranked by patient experience and clinical outcomes. The objective is to evaluate healthcare quality indicators, identify performance patterns, and highlight strengths or potential areas of improvement in care delivery.
 
 ---
 
@@ -38,8 +38,8 @@ Each notebook provides visualizations and statistical comparisons between JHH an
 
 ## Data Sources
 
-- **Hospital Compare Data** (CMS.gov)  
-- **U.S. News & World Report Rankings**  
+- Hospital Compare Data** (CMS.gov)  
+- U.S. News & World Report Rankings
 - Publicly reported HCAHPS and outcome datasets
 
 ---
